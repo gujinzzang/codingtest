@@ -12,9 +12,6 @@ def solution(numbers):
 
 from itertools import combinations
 
-
-
-
 def solution2(numbers):
     answer = []
     l = list(combinations(numbers, 2))
